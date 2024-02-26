@@ -15,6 +15,15 @@ const n = parseInt(prompt("Enter a number: "));
  * are not natural numbers.
  */
 let num = undefined;
+let prime = true;
+  if (n % 2 == 0 && n != 2) prime = false;
+  if (n % 3 == 0 && n != 3) prime = false;
+  let m = Math.sqrt(n);
+  for (let i = 5; i <= m; i += 6) {
+  if (n % i == 0) prime = false;
+  if (n % (i + 2) == 0) prime = false;
+  }
+  if (prime) num = n;
 
 // DO NOT CHANGE ANYTHING BELOW THIS.
 console.log(num);
