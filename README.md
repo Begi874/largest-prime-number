@@ -1,8 +1,7 @@
 # Your name
 
-FIRST NAME: `<Replace this with your first name>`
-
-LAST NAME: `<Replace this with your last name>`
+FIRST NAME: `Francis`
+LAST NAME: `Cyr`
 
 # Largest Prime
 
